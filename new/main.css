@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+li {
+    list-style-type: none;
+    color: #fff;
+    margin-top: 1.5vh;
+    font-size: 22px;
+    font-family: Calibri;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #B6E4E2;
+}
+
+.side-menu {
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    width: 20vw;
+    height: 100vh;
+    background-color: #010309;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-block {
+    padding-bottom: 70px;
+}
+
+.logo {
+    width: 12.5vw;
+    height: 9.5vh;
+    background-image: url(./../img/logo.png);
+    background-size: contain;
+    background-position: center;
+    margin-left: 3vw;
+    margin-top: 4vh;
+}
+
+.menu-list {
+    padding-bottom: 50px;
+}
+
+.wrapper {
+    padding: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.social-network {
+    display: flex;
+    font-size: 22px;
+}
+
+.fa {
+    color: #D8E2DC;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.fa-instagram:hover {
+    color: #bc2a8d;
+}
+
+.languages {
+    font-size: 22px;
+    display: flex;
+}
+
+.ru {
+    cursor: pointer;
+}
+
+.lt {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.general {
+    width: 80vw;
+    height: 100vh;
+    background-color: blueviolet;
+    background-image: url(img/josh-calabrese-Ca8r0PSWg9Q-unsplash.jpg);
+    background-attachment: absolute;
+    background-position: center;
+    background-size: cover;
+    margin-top: -100vh;
+    margin-left: 20vw;
+    z-index: 888;
+}
